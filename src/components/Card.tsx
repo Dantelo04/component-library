@@ -13,7 +13,7 @@ const Card = () => {
                     Description of what the code or component does Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </div>
                 <div className='flex justify-center'>
-                    <button className='inline-flex hover:bg-white hover:text-black transition-all text-sm justify-center items-center rounded py-1 px-3 bg-neutral-700 font-mono gap-2'>
+                    <button className='inline-flex hover:bg-white hover:text-black transition-all text-sm justify-center items-center rounded py-1 px-3 bg-neutral-700 tracking-tight gap-2'>
                         <span>Copy code</span><BiClipboard className='w-3 h-3'></BiClipboard>
                     </button>
                 </div>
