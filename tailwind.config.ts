@@ -20,6 +20,9 @@ const config: Config = {
           lg: "80px",
         },
       },
+      transitionProperty: {
+        'height': 'height'
+      },
     },
   },
   plugins: [],
