@@ -4,7 +4,7 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import { CgMenu } from 'react-icons/cg'
 
-const Navbar = () => {
+const MyNavbar = () => {
     const [isOpen, setOpen] = useState(false)
 
     return (
@@ -36,4 +36,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default MyNavbar
